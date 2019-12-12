@@ -1,0 +1,128 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #ffccff;
+    text-align: justify;
+}
+section {
+    padding: 100px;
+    position: relative;
+}
+@media only screen and (max-width: 900px) {
+    html {
+        overflow-x: auto;
+    }
+    section {
+        padding: 10px;
+    }
+}
+
+.bg-green {
+    background-color: #8aff5f;
+    color: rgb(190, 10, 169);
+}
+.bg-fucsia {
+    background-color: rgb(255, 159, 244);
+    color: rgb(48, 131, 17);
+}
+.bg-lt-blue {
+    background-color: #24b1b1;
+    color: white;
+}
+.bg-black {
+    background-color: #1F1A17;
+    color: white;
+}
+.bg-white {
+    background-color: white;
+    color: black;
+}
+.bg-fucsia-return {
+    padding-top : 10px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    text-align: left;
+    background-color: rgb(255, 159, 244);
+    color: rgb(48, 131, 17);
+}
+
+.subpage {
+    background-color: #ffccff;
+}
+
+figure figcaption {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+header {
+    padding: 100px;
+}
+
+a {
+    color: inherit;
+    text-decoration-line: underline;
+    transition: background-color 0.3s ease-in;
+}
+a:hover {
+    color: red;
+    background-color: #55e4e475;
+}
+a.nav-link {
+    text-decoration-line: none;
+    background-color: inherit;
+}
+a.navbar-brand {
+    text-decoration-line: none;
+    background-color: inherit;
+}
+a.carousel-control-prev, a.carousel-control-next {
+    text-decoration-line: none;
+    background-color: inherit;
+}
+
+table {
+    border-spacing: 15px;
+}
+th {
+    text-align: right;
+}
+td {
+    text-align: left;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+.section {
+  position: relative;
+  height: 100vh;
+}
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+.bg-beatles::after {
+  background-image: url("../src/images/sgtpepperlonelysheartsclubband.jpg");
+}
+.bg-gunsnroses::after {
+    background-image: url("../src/images/appetitefordestruction.png");
+}
