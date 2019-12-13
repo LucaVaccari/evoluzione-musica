@@ -57,10 +57,6 @@ figure figcaption {
     font-weight: bold;
 }
 
-header {
-    padding: 100px;
-}
-
 a {
     color: inherit;
     text-decoration-line: underline;
