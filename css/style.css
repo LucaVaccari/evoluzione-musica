@@ -122,11 +122,9 @@ img:hover {
 }
 .bg-beatles::after {
   background-image: url("../src/images/sgtpepperlonelysheartsclubband.jpg");
-  background-repeat: no-repeat;
 }
 .bg-gunsnroses::after {
     background-image: url("../src/images/appetitefordestruction.png");
-    background-repeat: no-repeat;
 }
 
 .navbar-hide {
