@@ -9,6 +9,9 @@ section {
     padding: 100px;
     position: relative;
 }
+header {
+    padding: 100px;
+}
 @media only screen and (max-width: 900px) {
     html {
         overflow-x: auto;
@@ -16,15 +19,19 @@ section {
     section {
         padding: 10px;
     }
+    header {
+        padding: 10px;
+        padding-top: 100px;
+    }
 }
 
 .bg-green {
-    background-color: #8aff5f;
-    color: rgb(190, 10, 169);
+    background-color: #a2ff81;
+    color: rgb(134, 14, 120);
 }
 .bg-fucsia {
-    background-color: rgb(255, 159, 244);
-    color: rgb(48, 131, 17);
+    background-color: rgb(255, 183, 247);
+    color: rgb(33, 97, 10);
 }
 .bg-lt-blue {
     background-color: #24b1b1;
